@@ -1,0 +1,44 @@
+version: 2
+purpose: >
+  Enrich daily limit-up relay screening arguments without changing the four
+  core relay styles or base strategy weights.
+
+promote_shadow_to_core: false
+
+stage_narrative_priority:
+  one_to_two:
+    - same_height_competition
+    - cyq
+    - sector_flow
+    - theme_reflow
+    - money_flow
+    - technical_structure
+  two_to_three:
+    - leader_feedback
+    - same_height_competition
+    - cyq
+    - sector_flow
+    - theme_reflow
+    - dragon_tiger
+  three_to_four:
+    - leader_feedback
+    - cyq
+    - theme_reflow
+    - same_height_competition
+    - sector_flow
+    - dragon_tiger
+  high_level:
+    - leader_feedback
+    - theme_reflow
+    - cyq
+    - sector_flow
+    - dragon_tiger
+    - same_height_competition
+
+rules:
+  - "CYQ confirms cost structure; it never triggers entry alone."
+  - "Negative money flow is not a hard rejection when turnover/absorption is healthy."
+  - "Same-height competition only ranks candidates already admitted to a relay stage."
+  - "Theme reflow score is heuristic until calibrated on historical samples."
+  - "A collapsing sector core leader raises the risk requirement for lower relays."
+  - "When two same-height names belong to the same theme, prefer the more active/leading name unless diversification has a clear reason."

@@ -1,0 +1,21 @@
+{
+  "target_repo": "Sixfano/A-stock",
+  "version": "v2",
+  "core_strategy_files_modified": false,
+  "core_strategy_files": [
+    "strategies/one_to_two.py",
+    "strategies/two_to_three.py",
+    "strategies/three_to_four.py",
+    "strategies/high_level.py"
+  ],
+  "new_v2_modules": [
+    "factors/cyq.py",
+    "factors/leader_feedback.py",
+    "factors/competition.py",
+    "factors/theme_reflow.py",
+    "reports/market_context.py",
+    "config/evidence_policy.yaml",
+    "tests/test_evidence_v2.py"
+  ],
+  "purpose": "Enrich daily relay-screening evidence; do not change core relay style."
+}
